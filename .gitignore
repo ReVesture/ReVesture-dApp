@@ -30,6 +30,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Fleek
+.fleek.json
+
 # next-pwa
 /public/workbox-*.js
 /public/sw.js
@@ -38,6 +41,7 @@ yarn-error.log*
 package-lock.json
 
 report.*.json
+
 
 # .vscode Debugging
 .vscode/*-debug-profile

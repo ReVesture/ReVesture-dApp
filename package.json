@@ -1,8 +1,8 @@
 {
-  "name": "react-three-next",
+  "name": "revesture-dapp",
   "version": "2.0.0",
   "authors": [
-    "Renaud ROHLINGER <https://twitter.com/onirenaud>"
+    "@luxumbra (Twitter: @bdgrdev)"
   ],
   "license": "MIT",
   "private": true,

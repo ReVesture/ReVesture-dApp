@@ -9,7 +9,7 @@ import { SiteFooter } from "@/components/dom/Footer";
 import { useFrame } from '@react-three/fiber'
 
 import { TermDefinition } from '@/components/dom/TermDefinition';
-// import { AlphaNotice } from '@/components/dom/AlphaNotice';
+import { AlphaNotice } from '@/components/dom/AlphaNotice';
 // import { EasterEgg } from '@/components/dom/EasterEgg';
 
 const Dom = ({ children }) => {
@@ -46,7 +46,7 @@ const Dom = ({ children }) => {
       {children}
       <SiteFooter />
 
-      {/* <AlphaNotice /> */}
+      <AlphaNotice />
       {/* <EasterEgg /> */}
     </Box>
   )

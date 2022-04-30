@@ -40,8 +40,8 @@ export const CanvasLoader = () => {
           </Text>
           <Box ref={loadingBar} className="loading-bar" mb={2} height="3px" maxH="3px" width="100%" sx={{
           opacity: ratioLoaded < 1 ? 0.7 : 0,
-          transform: ratioLoaded < 1 ? `scaleX(${ratioLoaded})` : 0,
-          transformOrigin: ratioLoaded < 1 ? 'top left' : 'top right',
+          transform: ratioLoaded < 1 ? `scaleX(${ratioLoaded})` : `scaleX(0)`,
+          transformOrigin: ratioLoaded < 1 ? 'top left' : '100% 0',
           transition: 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out'
         }} />
           <Text fontSize="0.5vw" mt={2}>{item} / {total}</Text>

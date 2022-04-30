@@ -54,18 +54,20 @@ export function SiteFooter() {
           <ButtonGroup variant="ghost" >
             <IconButton
               as="a"
-              href="https://github.com/luxumbra/pp-nfts"
+              href="https://github.com/ReVesture"
               color="green.400"
               aria-label="Github"
               colorScheme="ghost"
+              target="_blank"
               icon={<FaGithub fontSize="1.25rem" />}
             />
             {/* <IconButton as="a" href="#" aria-label="Discord" colorScheme="ghost" icon={<FaDiscord fontSize="1.25rem" />} /> */}
             <IconButton
               as="a"
-              href="#"
+              href="https://twitter.com/ReVesture"
               aria-label="Twitter"
               colorScheme="ghost"
+              target="_blank"
               icon={<FaTwitter fontSize="1.25rem" />}
             />
           </ButtonGroup>

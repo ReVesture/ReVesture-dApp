@@ -14,10 +14,10 @@ export function AlphaNotice() {
     <Box
       ref={notice}
       // display="none"
-      bg="linear-gradient(90.24deg, #640DFB80 0.3%, rgba(100, 13, 251, 0.1) 80.16%)"
+      bg="greenGlassAlpha"
       backdropFilter="blur(7px)"
       boxShadow="0 0 15px rgba(0,0,0,0.6)"
-      color="#FF61E6"
+      color="green.300"
       position="fixed"
       bottom={0}
       left={0}
@@ -44,22 +44,20 @@ export function AlphaNotice() {
         {/* <Image src={BabyOctoGif} boxSize="25px" objectFit="cover" /> */}
         <Text fontSize={{base: "2vmin", lg: '0.7vmax'}} fontWeight={700}>
           The site is in{" "}
-          <Text as="span" color="#76EBF2" fontWeight="700">
+          <Text as="span" color="blue.400" fontWeight="700">
             Alpha
           </Text>
           .{" "}
           <span role="img" aria-label="watchful eyes">
             👀
           </span>{" "}
-          We&apos;re still working on content, there&apos;s no Web3 connectivity (or is there...?) and there
-          are some bugs. <br /> We&apos;re working to get it
-          all ship shape ASAP!
+          We just finished a hackathon and have been busy forging our ideas and partnerships. The marketplace is still under construction, but we are working it. Forgive the bugs, we <em>are</em> squishing them. Watch this space.
         </Text>
         {/* <Image src={BabyOctoGif} boxSize="35px" objectFit="cover" /> */}
         <IconButton
           onClick={() => setToggle(!toggle)}
           colorScheme="ghost"
-          color="#927CFF"
+          color="green.400"
           pos="fixed"
           bottom={3}
           right={{base: 2, lg: 6}}
