@@ -51,7 +51,7 @@ export function AlphaNotice() {
           <span role="img" aria-label="watchful eyes">
             👀
           </span>{" "}
-          We just finished a hackathon and have been busy forging our ideas and partnerships. The marketplace is still under construction, but we are working it. Forgive the bugs, we <em>are</em> squishing them. Watch this space.
+          We just finished a hackathon and have been busy forging our ideas and possible partnerships. The marketplace is still under construction, but we are working it. Forgive the bugs, we <em>are</em> squishing them. Watch this space.
         </Text>
         {/* <Image src={BabyOctoGif} boxSize="35px" objectFit="cover" /> */}
         <IconButton
